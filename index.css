@@ -1,0 +1,19 @@
+/* Some resets */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Biar sizingnya lebih enak */
+html { box-sizing: border-box; }
+* { box-sizing: inherit; }
+
+/* Dijadiin background image untuk acuan */
+body {
+    min-height: 100vh;
+
+    background-image: url("img/404_master.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
